@@ -22,10 +22,10 @@ int main(void)
 		printf("%ld", current);
 
 		tmp =  current;
-		current = current + prev;
+		current += prev;
 		prev = tmp;
 
-		count ++;
+		count++;
 	}
 	printf("\n");
 }
